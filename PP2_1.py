@@ -2,17 +2,17 @@
 
 def q1(): 
   #Write Assignment code here
-  a = int(input("Input a integer:"))
+  num = int(input("Input a integer:"))
 
-  if a % 2 == 0:
-    print(f"{a} is even")
+  if num % 2 == 0:
+    print(f"{num} is even")
   else:
-    print(f"{a} is odd")
+    print(f"{num} is odd")
 
 def q2(): 
   #Write Assignment code here
-  b = input("Input a name:")
-  if b == "Kalisz":
+  name = input("Input a name:")
+  if name == "Kalisz":
     print("teacher")
   else :
     print("student")
